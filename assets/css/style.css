@@ -41,7 +41,7 @@ div {
 	margin:;
 }
 
-ul {
+ul (.active){
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -50,11 +50,11 @@ ul {
 
 }
 
-li {
+li (.active) {
 	float: left;
 }
 
-li a {
+li a (.active){
 	display: block;
 	color: #777777;
 	text-align: center;
@@ -71,14 +71,6 @@ li a:hover:not(.active) {
 	background-color: white;
 }
 
-
-.floating-box {
-	display: inline-block;
-	width: 260px;
-	height: 90px;
-	margin: 10px;
-	border: 2px solid white;
-}
 
 .works {
 	float: right;
