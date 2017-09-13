@@ -4,19 +4,46 @@ h2 {
 
 .left {
 	float: right;
+
+}
+
+.p1 {
+	width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+
 }
 
 body {
+	display: block;
 	color: #777777;
-	background-image: url();
+	background-image: url("memphis-coloful.jpg");
 	font-family: Helvetica;
+	padding: 50px;
 }
+
 
 header {
 	background-color: #ffffff;
 	padding: 15px 20px;
+	margin: 30px;
 	border: none;
 	border-radius: 2px;
+}
+
+ul {
+	float: right;
+}
+
+nav {
+	float: right;
+
 }
 
 .container {
@@ -34,47 +61,7 @@ footer {
 	text-align: center;
 }
 
-div {
-	width:; 
-	padding:;
-	border:;
-	margin:;
-}
 
-ul (.active){
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: white;
-
-}
-
-li (.active) {
-	float: left;
-}
-
-li a (.active){
-	display: block;
-	color: #777777;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-li a:hover:not(.active) {
-	background-color: #111;
-
-}
-
-.active {
-	background-color: white;
-}
-
-
-.works {
-	float: right;
-}
 
 input[type=text] {
     width: 100%;
