@@ -7,6 +7,23 @@ h2 {
 
 }
 
+
+
+.main {
+	width: 600px;
+	margin: 0 auto;
+	float: left;
+
+}
+
+
+.main2 {
+	width: 600px;
+	margin: 0 auto;
+	float: right;
+
+
+}
 .p1 {
 	width: 100%;
     padding: 12px;
@@ -46,10 +63,20 @@ nav {
 
 }
 
+.section1 {
+	margin-right: 200px;
+}
+
+.section2 {
+	margin-left: 200px;
+
+}
+
 .container {
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	padding:20px;
+	position: relative;
 }
 
 footer {
